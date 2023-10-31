@@ -8,6 +8,14 @@
 using namespace std;
 int main()
 {
+	int count_of_Writer_objects;
+	cout << "enter the number of Writer processes  ";
+	do {
+		cin >> count_of_Writer_objects; cout << endl;
+	} while (count_of_Writer_objects <= 0);
+
+	long count_of_Reader_objects = 2 * count_of_Writer_objects;
+
 	char lpszComLine[500] = "process1.exe ";
 	char lpszHandle[20];
 	wchar_t wComLine[180];
