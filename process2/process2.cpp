@@ -1,11 +1,16 @@
-﻿// process2.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include <conio.h>
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
 
-int main()
+using namespace std;
+
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello World!\n";
+    cout << "Process2 is working" << endl;
+    _getch();
 }
 
 
